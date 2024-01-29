@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ピッチコントロール</title>
+    <script src="https://cdn.jsdelivr.net/npm/tone@14.7.77/build/Tone.min.js"></script>
+</head>
+<body>
+    <input type="button" value="Start" onclick="startAudio();"/>
+    <input type="button" value="Stop" onclick="stopAudio();"/>
+    <select name="soundType" id="type">
+        <option value="beep">beep</option>
+        <option value="piano">piano</option>
+    </select>    
+    <label><input type="checkbox" id="reverb">リバーブ</label>
+    
+    <input type="range" min="220" max="880" value="440" step="1" id="frequencySlider" oninput="changeFrequency(this.value)"/>
+    <!-- 
+    # beep音のテスト
+    <script src="testBeep.js"></script>
+    # ピアノ音（音源付き）のテスト
+    <script src="testTone.js"></script>
+    -->
+    <script src="testPiano.js"></script>
+</body>
+</html>

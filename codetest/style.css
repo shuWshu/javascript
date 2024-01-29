@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&family=Roboto:ital,wght@0,100;0,500&display=swap');
+
+.nomal{
+  background-color: #EEEEEE;
+}
+.blink{
+  background-color: #FFFFCC;
+}
+#page{
+  text-align:center;
+}
+
+#explanation_jp{
+  padding-top: 20px;
+  font-size: 46px;
+  font-family: 'BIZ UDPGothic', sans-serif;
+}
+#explanation_en{
+  padding-top: 10px;
+  font-size: 30px;
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+#inputField{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.input{
+  padding: 5px;
+  color: black;
+  font-size: 55px;
+  width: 40px; /* 幅を調整 */
+  display: inline-block;
+}
+.c0{
+  border-bottom: solid 4px gray;
+}
+.c1{
+  border-bottom: solid 4px black;
+}
+.number{
+  position: relative;
+  z-index: 10;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  height: 60px;
+}
+
+#tenKeys{
+  line-height: 0px;
+}
+.tenKey{
+  padding: 10px;
+  color: white;
+  font-size: 46px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+.keyNumber{
+  position: relative;
+  top: 40px;
+  z-index: 10;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.circle{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: black;
+}
+.back{
+  position: relative;
+  top: 40px;
+  left: 10px;
+  z-index: 10;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+.square{
+  position: relative;
+  bottom: 55px;
+  left: 35px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5%;
+  background-color: white;
+  z-index: 8;
+}
+.triangle{
+  position: relative;
+  bottom: 85px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 26px 15px 0;
+  border-color: transparent white transparent transparent;
+  z-index: 8;
+}
+.enter{
+  position: relative;
+  z-index: 10;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  top: 46px;
+}
+.inactive{
+  background-color: grey;
+}

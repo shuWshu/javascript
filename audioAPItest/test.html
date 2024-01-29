@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ピッチコントロール</title>
+</head>
+<body>
+    <input type="button" value="Start" onclick="startAudio();"/>
+    <input type="button" value="Stop" onclick="stopAudio();"/>
+    <input type="range" min="20" max="2000" value="440" step="1" id="frequencySlider" oninput="changeFrequency(this.value)"/>
+    <script src="test2.js"></script>
+</body>
+</html>
